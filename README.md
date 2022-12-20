@@ -9,8 +9,7 @@ Campus Placement System
 Student,Recruiter, Placement co-ordinator,Architect,Business Analyst, Quality Assurance Team, System Analyst
 
 ### Objective
-The Campus Placement System  is intended to  provide solution
-for students, recruiters and institution. It will enable recruiters to recruit talented students , students to apply for company visiting the campus and  the institution to manage placement process easily.
+Campus placement is a process initiated by the group of member from human resource team of Transflowe. It mostly held at Transflower Online campus for the recruitment of student who is about complete their Transflower Acceleration Program (TAP), many companies will participate in the campus placement held at Transflower campus to have lookout for talented young employees with potential, campus placements  contains procedure and test in campus recruitment the recruiter has to make an impact show the students benefit of joining their establishment in order to do that HR team will present the power point presentation to the students which is known as the campus recruitment PPT. campus recruitment PPT contains information about the company profile and how it came into existence and their achievements, the lifestyle provided by the corporate and career growth, ants the vision of the company for the future, and the main aspect is a selection process and its details will be clearly explained through campus recruitment PPT.
 
 ### Scope
 
