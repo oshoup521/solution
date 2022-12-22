@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var student={
   rollno:101,
-  name:"Harry potterjo",
+  name:"Harry potter said to severes snape ure evil!",
   rank:1
 };
 app.get('/',(req, res)=>{
