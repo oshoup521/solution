@@ -16,6 +16,7 @@ diploma decimal(9,2),
 degree decimal(9,2),
 cgpa decimal(9,2),
 skills varchar(80),
+blackList boolean,
 login_id varchar(20),
 constraint fk_crd foreign key (login_id) references credentials(login_id)
 on update cascade
@@ -29,7 +30,7 @@ profile varchar(20),
 vacancy varchar(20),
 job_profile varchar(20),
 interview_time varchar(10),
-black_list varchar(100));
+blackList boolean);
 
 create table co_ordinator(
 co_id int primary key,
@@ -40,12 +41,17 @@ expertise varchar(20));
 
 create table placement_record(
 reg_id int primary key,
-company varchar(20),
+roll_no int,
+companyID int,
+companyname varchar(20),
 ctc int,
 aptitude boolean,
 coding boolean,
 HR boolean,
-placement_status boolean);
+placement_status boolean,
+constraint fk_rollno foreign key (roll_no) references student(roll_no)
+constraint fk_cname foreign key (companyID) references company(companyID)
+);
 
 
 
